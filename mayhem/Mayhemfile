@@ -1,0 +1,4 @@
+project: google-cloud-go
+target: google-cloud-go-parsequery-fuzz
+cmds:
+  - cmd: ./parsequery-fuzz.libfuzzer
