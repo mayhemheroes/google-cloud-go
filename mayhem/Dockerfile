@@ -1,4 +1,4 @@
-FROM golang:1.17.13 as gofuzzbuilder
+FROM golang:1.23.13 as gofuzzbuilder
 ARG project='google-cloud-go'
 ARG fuzzTargetPath='spanner/spansql'
 
